@@ -82,7 +82,6 @@ for(i=0; i<4; i++)
 		}
 	}
 }
-System.out.println(mod);
 rec = check(b);
 que[0]= rec[0];
 que[1] = win(b);
@@ -187,7 +186,7 @@ for(j=0; j<4; j++)
 		}
     }
 }
-System.out.println(mod);
+
 rec = check(b);
 que[0]= rec[0];
 que[1] = win(b);
@@ -238,7 +237,7 @@ public static int[] MoveUp(int b[][])
 		}
 	}
 }
-System.out.println(mod);
+
 rec = check(b);
 que[0]= rec[0];
 que[1]= win(b);
@@ -308,7 +307,6 @@ public static int win(int b[][])
 			     v=1;
 		}
 	}
-	//System.out.println(v);
 	return v;
 }
 
